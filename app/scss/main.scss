@@ -275,7 +275,7 @@
         }
 
   }
-  .footer {
+  .footer-top {
     color: white;
     margin-top: 77px;
     background-color: #1D1D1D;
@@ -299,20 +299,39 @@
                 }
             }
         }
-    }
-}
-.articles-cards {
-    columns: 5 200px;
-    column-gap: 1rem;
-    &__card {
-        width: 223px;
-        color: white;
-        margin: 0 1rem 1rem 0;
-        display: inline-block;
-        width: 100%;
-        font-size: 14px;
-        img {
-            width: 100%;
+        .articles-cards {
+            columns: 5 200px;
+            column-gap: 1rem;
+            &__card {
+                width: 223px;
+                color: white;
+                margin: 0 1rem 1rem 0;
+                display: inline-block;
+                width: 100%;
+                font-size: 14px;
+                img {
+                    width: 100%;
+                }
+            }
         }
     }
+
 }
+.footer-bottom {
+    height: 52px;
+    display: flex;
+    &__infos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+        color: white;
+        background-color: black;
+        position: sticky;
+ 
+    }
+    &__white {
+        width: 90%;
+    }
+}
+
