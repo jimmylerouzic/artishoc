@@ -227,7 +227,10 @@
                     }
                 }
                 &__theme {
-
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
                     .theme-square {
                         display: flex;
                         align-items: center;
