@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>A5454ACD-BB38-45A6-983C-28C10025B198</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M3.10335508,10.4670107 L3.10335508,13.9499996 L0,13.9499996 L0,5.5131735 C0,2.46833185 2.47842371,0 5.53571429,0 C8.59300486,0 11.0714286,2.46833185 11.0714286,5.5131735 C11.0714286,8.55801514 8.59300486,11.026347 5.53571429,11.026347 C4.66303791,11.026347 3.83752566,10.8252357 3.10335508,10.4670107 Z M3.74097991,8.82290502 L5.64642857,7.90074289 L7.55187723,8.82290502 C7.79188571,8.93905968 8.06606657,8.74321623 8.02786801,8.48291164 L7.72460624,6.41633042 L9.20550004,4.91967673 C9.39203201,4.73115967 9.28730424,4.41427831 9.02368774,4.36955588 L6.930813,4.01450058 L5.94060705,2.1673556 C5.81588166,1.93469099 5.47697548,1.93469099 5.35225009,2.1673556 L4.36204414,4.01450058 L2.2691694,4.36955588 C2.0055529,4.41427831 1.90082514,4.73115967 2.0873571,4.91967673 L3.56825091,6.41633042 L3.26498913,8.48291164 C3.22679057,8.74321623 3.50097143,8.93905968 3.74097991,8.82290502 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-copy" transform="translate(-1280.000000, -1564.000000)">
+            <g id="Group-4" transform="translate(0.000000, 1507.000000)">
+                <g id="Group" transform="translate(1132.000000, 55.000000)">
+                    <g id="deezer-copy-18" transform="translate(146.000000, 0.000000)">
+                        <g id="fd" transform="translate(2.214286, 2.214286)" fill="#FFFFFF" fill-rule="nonzero">
+                            <rect id="Rectangle" x="0" y="0" width="26.5714283" height="26.5714283"></rect>
+                        </g>
+                        <g id="color-ic" transform="translate(9.964286, 9.078571)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                            <g mask="url(#mask-2)" fill="#000000" fill-rule="nonzero" id="Rectangle">
+                                <g transform="translate(-7.750000, -6.864286)">
+                                    <rect x="0" y="0" width="26.5714283" height="26.5714283"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="color-ic" transform="translate(2.214286, 2.214286)"></g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
