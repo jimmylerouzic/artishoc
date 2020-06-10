@@ -55,7 +55,9 @@
             }
             .title {
                 font-size: 16px;
-                font-family: "Gabriela Stencil Black";
+                // font-family: "Gabriela Stencil Black";
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
                 @media only screen and (max-width : 768px) {
                     font-size: 12px;
                 }
@@ -114,7 +116,8 @@
                     color: white;
                     .artist {
                         font-size: 60px;
-                        font-family: "Gabriela Stencil Black";
+                        // font-family: "Gabriela Stencil Black";
+                        font-family: 'Lato', sans-serif;
                         @media only screen and (max-width : 768px) {
                             font-size: 30px;
                           }                    width: inherit;
@@ -127,7 +130,9 @@
                             background-color: #992F45;
                             padding: 12px 7px;
                             margin-right: 6px;
-                            font-family: "Gabriela Stencil Black";
+                            // font-family: "Gabriela Stencil Black";
+                            font-family: 'Lato', sans-serif;
+                            font-weight: 700;
                             @media only screen and (max-width : 768px) {
                                 display: flex;
                                 justify-content: center;
@@ -197,21 +202,29 @@
                 #cinema {
                     background-color: #4996D2;
                     font-family: "Gabriela Stencil Black";
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 700;
                     font-size: 24px;
                 }
                 #spectacle {
                     background-color: #992F45;
                     font-family: "Gabriela Stencil Black";
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 700;
                     font-size: 24px;
                 }
                 #art {
                     background-color: #C45685;
                     font-family: "Gabriela Stencil Black";
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 700;
                     font-size: 24px;
                 }
                 #enfants {
                     background-color: #ED6C00;
                     font-family: "Gabriela Stencil Black";
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 700;
                     font-size: 24px;
                 }
                 .cinema-theme {
