@@ -17,6 +17,13 @@
   .container {
     margin: 0 40px;
         nav {
+            padding: 0 40px;;
+            background-color: white;
+            z-index: 6;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
             height: 52px;
             display: flex;
             justify-content: space-between;
@@ -66,7 +73,7 @@
         }
         .header {
             position: relative;
-            
+            margin-top: 52px;
             &__image {
                 background-color: rgba(0,0,0,0.2);
                 width: 100%;
@@ -277,7 +284,7 @@
   }
   .footer-top {
     color: white;
-    margin-top: 77px;
+    margin-top: 60px;
     background-color: #1D1D1D;
     &__container {
         margin: 0 130px;
@@ -321,17 +328,20 @@
     height: 52px;
     display: flex;
     &__infos {
+        cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 10%;
+        width: 121px;
         color: white;
         background-color: black;
-        position: sticky;
+        position: fixed;
+        bottom:0;
+        right:0;
+        height: 52px;
+        font-size: 14px;
  
     }
-    &__white {
-        width: 90%;
-    }
+
 }
 
