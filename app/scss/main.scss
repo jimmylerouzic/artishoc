@@ -23,10 +23,14 @@
                 display: flex;
                 align-items: center;
                 width: 30%;
+                img {
+                    cursor: pointer;
+                }
                 button {
                     margin-left: 3px;
                     border:none;
                     background-color: white;
+                    cursor: pointer;
                 }
             }
             .title {
@@ -45,6 +49,7 @@
                 }
                 img {
                     margin-left: 4px;
+                    cursor: pointer;
                 }
                 &__ticket {
                     display: flex;
@@ -99,6 +104,20 @@
                     letter-spacing: 0;
                     line-height: 15px;
                 }
+                &__block-bullet {
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    position: absolute;
+                    bottom: 8%;
+                    left: 48%;
+                    // right: 0;
+                    // text-align: center;
+
+                    img {
+                        margin-right: 12px;
+                    }
+                }
                 img {
                     width: 100%;
                     height: 100%;
@@ -132,6 +151,26 @@
                         &__date {
                             color: #4996D2;
                         }
+                        &__image {
+                            height: 374px; 
+                            object-position: center;
+                            object-fit: cover;
+                         }
+                         &__next {
+                            display: flex;
+                            align-items: center;
+                            img {
+                                cursor: pointer;
+                                margin-right: 10px;
+                                height: 6px;
+                                width: 6px;
+                            }
+                            .lineblack {
+                                width: 16px;
+                                height: 8px;
+                                margin-left: 6px;
+                            }
+                         }
                     }
                 }
                 .art-theme {
@@ -139,7 +178,7 @@
                         &__date {
                             color: #C45685;
                         }
-                        img {
+                        &__image {
                             height: 374px; 
                             object-position: center;
                             object-fit: cover;
@@ -168,6 +207,25 @@
                         }
                     }
                 }
+                .kid-theme {
+                    .cards-descriptif {
+                        &__date {
+                            color: #ED6C00;
+                        }
+                        &__image
+                        {
+                           height: 240px;
+                           object-position: center;
+                           object-fit: cover;
+                        }
+                        &__border {
+                            height: 1px;
+                            width: 100%;
+                            border-bottom: solid 0.5px;
+                            margin-bottom: 24px;
+                        }
+                    }
+                }
                 &__theme {
 
                     .theme-square {
@@ -182,9 +240,8 @@
 
                     .cards-descriptif {
                         width: 280px;
-                        img {
-                            height: 374px;
-                            width: 280px;
+                        &__image {
+                            width: 100%;
                             margin-bottom: 17px;
                         }
                         &__title {
@@ -203,6 +260,7 @@
                            line-height: 19px;
                            margin-top: 9px;
                            margin-bottom:30px;
+                           text-transform: uppercase;
                         }
                     }
                 }
