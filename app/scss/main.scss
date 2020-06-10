@@ -301,6 +301,7 @@
                 display: flex;
                 img {
                     margin-left: 6px;
+                    cursor: pointer;
                     // height: 12px;
                     // width: 12px;
                 }
@@ -340,6 +341,10 @@
         right:0;
         height: 52px;
         font-size: 14px;
+        a {
+            text-decoration: none;
+            color: white;
+        }
  
     }
 
