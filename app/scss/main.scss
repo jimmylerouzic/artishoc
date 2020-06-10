@@ -109,10 +109,11 @@
             }   
         }
         .cards {
+            margin: 0 90px;
             &__themes {
                 display: flex;
                 justify-content: space-between;
-                margin: 0 90px;
+                flex-wrap: wrap;
                 margin-top: 40px;
                 #cinema {
                     background-color: #4996D2;
@@ -126,14 +127,84 @@
                 #enfants {
                     background-color: #ED6C00;
                 }
+                .cinema-theme {
+                    .cards-descriptif {
+                        &__date {
+                            color: #4996D2;
+                        }
+                    }
+                }
+                .art-theme {
+                    .cards-descriptif {
+                        &__date {
+                            color: #C45685;
+                        }
+                        img {
+                            height: 374px; 
+                            object-position: center;
+                            object-fit: cover;
+                         }
+                    }
+
+                }
+                .spectacle-theme {
+                    .cards-descriptif {
+                        &__date {
+                            color: #992F45;
+                        }
+                        &__comment {
+                            color: #992F45;
+                        }
+                        img {
+                           height: 240px; 
+                           object-position: center;
+                           object-fit: cover;
+                        }
+                        &__border {
+                            height: 1px;
+                            width: 100%;
+                            border-bottom: solid 0.5px;
+                            margin-bottom: 24px;
+                        }
+                    }
+                }
                 &__theme {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    height: 104px;
-                    width: 280px;
-                    flex-wrap: wrap;
-                    color: white;
+
+                    .theme-square {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 104px;
+                        width: 280px;
+                        color: white;
+                        margin-bottom: 40px;
+                    }
+
+                    .cards-descriptif {
+                        width: 280px;
+                        img {
+                            height: 374px;
+                            width: 280px;
+                            margin-bottom: 17px;
+                        }
+                        &__title {
+                            font-size: 28px;
+                            line-height: 26px;
+                        }
+                        &__date {
+                            margin-bottom: 7px;
+                            font-size: 14px;
+                        }
+                        &__comment {
+                                font-size: 14px;
+                        }
+                        &__content {
+                            font-size: 16px;
+                           line-height: 19px;
+                           margin-top: 9px;
+                           margin-bottom:30px;
+                        }
+                    }
                 }
 
             }
