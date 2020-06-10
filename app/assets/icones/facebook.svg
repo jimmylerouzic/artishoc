@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>568E57BC-2A22-4D70-B915-E8F050B7699E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M7.00932163,7.77679328 L7.33703592,5.23501457 L4.81983585,5.23501457 L4.81983585,3.61194305 C4.81983585,2.87613587 5.02510014,2.3743787 6.08020731,2.3743787 L7.4251645,2.37371441 L7.4251645,0.10008572 C7.19288592,0.069085718 6.39463589,0 5.46419301,0 C3.5231501,0 2.19524292,1.18486435 2.19524292,3.36040018 L2.19524292,5.23501457 L0,5.23501457 L0,7.77679328 L2.19524292,7.77679328 L2.19524292,14.2991936 L4.81983585,14.2991936 L4.81983585,7.77679328 L7.00932163,7.77679328 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-copy" transform="translate(-1207.000000, -1564.000000)">
+            <g id="Group-4" transform="translate(0.000000, 1507.000000)">
+                <g id="Group" transform="translate(1132.000000, 55.000000)">
+                    <g id="deezer-copy" transform="translate(73.000000, 0.000000)">
+                        <g id="Group" transform="translate(2.214286, 2.214286)">
+                            <g id="fd" fill="#FFFFFF" fill-rule="nonzero">
+                                <rect id="Rectangle" x="0" y="0" width="26.5714283" height="26.5714283"></rect>
+                            </g>
+                            <g id="color-ic" transform="translate(9.521429, 6.200000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                                <g mask="url(#mask-2)" fill="#000000" fill-rule="nonzero" id="Rectangle">
+                                    <g transform="translate(-9.521429, -6.200000)">
+                                        <rect x="0" y="0" width="26.5714283" height="26.5714283"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -11,7 +11,9 @@
     font-size: 2em;
     font-weight: 700;
   }
-
+    body {
+        margin: 0;
+    }
   .container {
     margin: 0 40px;
         nav {
@@ -82,15 +84,16 @@
                         margin-top: 10px;
                         margin-left: 16px;
                     }
-                    
-                    .musique {
-                        background-color: #992F45;
-                        padding: 12px 7px;
-                        font-size: 13px;
-                       
+                    .date {
+                        font-size: 16px;
+                        .musique {
+                            background-color: #992F45;
+                            padding: 12px 7px;
+                        }
                     }
                     .title {
                         margin-left: 16px;
+                        font-size: 28px;
                     }
                 }
                 &__block-top {
@@ -270,4 +273,46 @@
 
             }
         }
+
   }
+  .footer {
+    color: white;
+    margin-top: 77px;
+    background-color: #1D1D1D;
+    &__container {
+        margin: 0 130px;
+        &__contact {
+            padding-top: 53px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &__title {
+                font-size: 40px;
+                margin-bottom: 50px;
+            }
+            &__icone {
+                display: flex;
+                img {
+                    margin-left: 6px;
+                    // height: 12px;
+                    // width: 12px;
+                }
+            }
+        }
+    }
+}
+.articles-cards {
+    columns: 5 200px;
+    column-gap: 1rem;
+    &__card {
+        width: 223px;
+        color: white;
+        margin: 0 1rem 1rem 0;
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+        img {
+            width: 100%;
+        }
+    }
+}
