@@ -1,16 +1,4 @@
-// @import url(//db.onlinewebfonts.com/c/befa68745153478cdffc812d1bddc9b2?family=Gabriela+Stencil+Black);
 
-#app {
-    background: #ccc;
-    margin: 2em auto;
-    padding: 2em;
-    width: 500px;
-  }
-  
-  #app-title {
-    font-size: 2em;
-    font-weight: 700;
-  }
     body {
         margin: 0;
     }
@@ -110,7 +98,7 @@
             &__image {
                 &__block-bottom {
                     position: absolute;
-                    top: 55%;
+                    top: 60%;
                     left: 45px;
                     color: white;
                     .artist {
