@@ -68,7 +68,7 @@
             .link {
                 display: flex;
                 width: 30%;
-                justify-content: right;
+                justify-content: flex-end;
                 @media only screen and (max-width : 768px) {
                     display: none;
                    }
