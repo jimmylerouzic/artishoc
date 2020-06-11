@@ -141,7 +141,9 @@ body {
       .container .header__image__block-bottom .title {
         margin-left: 16px;
         font-size: 28px;
-        font-family: 'Roboto'; }
+        font-family: 'Roboto';
+        font-weight: 300;
+        Line-height: 33px; }
         @media only screen and (max-width: 768px) {
           .container .header__image__block-bottom .title {
             font-size: 14px; } }
