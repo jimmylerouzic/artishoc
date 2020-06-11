@@ -1,22 +1,8 @@
 
-   @font-face {
-    font-family: "GabriellaStencilBlack";
-    src: url("file:///home/jimmy/Dev/Artishoc/app/assets/fonts/webfontkit-20200611-092012/gabrielastencil-black-webfont.woff") format("woff"),
-    }
-   
-    @font-face {
-        font-family: "GabriellaStencilBold";
-        src: url("file:///home/jimmy/Dev/Artishoc/app/assets/fonts/webfontkit-20200611-092012/gabriela_stencil_w00_bold-webfont.woff") format("woff"),
-        }
-
     @import "common/variables";
+    @import "common/global";
    
-   body {
-        margin: 0;
-        .underlign {
-            text-decoration: underline;
-        }
-    }
+
   .container {
     margin: 0 40px;
         nav {
