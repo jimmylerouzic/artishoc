@@ -1,7 +1,6 @@
 
     @import "common/variables";
     @import "common/global";
-   
 
   .container {
     margin: 0 40px;
@@ -47,7 +46,7 @@
             }
             .title {
                 font-size: 16px;
-                font-family: $gabriellaBlack;
+                font-family: 'gabriela_stencilblack';
                 line-height: 46px;
                 font-size: 24px;
                 @media only screen and (max-width : $md-break) {
@@ -110,7 +109,7 @@
                     color: white;
                     .artist {
                         font-size: 60px;
-                        font-family: $gabriellaBold;
+                        font-family: 'gabrielastencilw00-boldRg';
                         
                         @media only screen and (max-width : $md-break) {
                             font-size: 30px;
@@ -124,7 +123,7 @@
                             background-color: #992F45;
                             padding: 12px 7px;
                             margin-right: 6px;
-                            font-family: $gabriellaBold;
+                            font-family: 'gabrielastencilw00-boldRg';
                             @media only screen and (max-width : $md-break) {
                                 display: flex;
                                 justify-content: center;
@@ -201,22 +200,22 @@
                    }
                 #cinema {
                     background-color: #4996D2;
-                    font-family: $gabriellaBold;
+                    font-family: 'gabrielastencilw00-boldRg';
                     font-size: 24px;
                 }
                 #spectacle {
                     background-color: #992F45;
-                    font-family: $gabriellaBold;
+                    font-family: 'gabrielastencilw00-boldRg';
                     font-size: 24px;
                 }
                 #art {
                     background-color: #C45685;
-                    font-family: $gabriellaBold;
+                    font-family: 'gabrielastencilw00-boldRg';
                     font-size: 24px;
                 }
                 #enfants {
                     background-color: #ED6C00;
-                    font-family: $gabriellaBold;
+                    font-family: 'gabrielastencilw00-boldRg';
                     font-size: 24px;
                 }
                 .cinema-theme {
@@ -337,8 +336,7 @@
                         &__title {
                             font-size: 28px;
                             line-height: 26px;
-                            font-family: $gabriellaBold;
-
+                            font-family: 'gabrielastencilw00-boldRg';
                         }
                         &__date {
                             font-family: "Roboto";
@@ -347,7 +345,6 @@
                             font-size: 14px;
                         }
                         &__comment {
-                            // font-family: "Roboto Medium";
                                 font-size: 14px;
                         }
                         &__content {
@@ -386,7 +383,7 @@
                 flex-direction: column;
                }
             &__title {
-                font-family: $gabriellaBlack;
+                font-family: 'gabriela_stencilblack';
                 font-size: 40px;
                 @media only screen and (max-width : $md-break) {
                     margin-bottom: 12px;
@@ -449,7 +446,7 @@
         a {
             text-decoration: none;
             color: white;
-            font-family: $gabriellaBold;
+            font-family: 'gabrielastencilw00-boldRg';
         }
     }
 }
