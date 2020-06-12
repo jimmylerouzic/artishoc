@@ -1,0 +1,88 @@
+nav {
+    padding: 0 40px;;
+    background-color: white;
+    z-index: 6;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media only screen and (max-width : $md-break) {
+       justify-content: center;
+    }
+    .menu-burger {
+        display: flex;
+        align-items: center;
+        width: 30%;
+        @media only screen and (max-width : $md-break) {
+          position: absolute;
+          left: 40px;
+          width: inherit;
+          button {
+              display: none;
+          }
+        }
+        img {
+            cursor: pointer;
+        }
+        button {
+            margin-left: 3px;
+            border:none;
+            background-color: white;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 12px;
+            cursor: pointer;
+        }
+    }
+    .title {
+        font-size: 16px;
+        font-family: 'gabriela_stencilblack';
+        line-height: 46px;
+        font-size: 24px;
+        @media only screen and (max-width : $md-break) {
+            font-size: 12px;
+        }
+        @media only screen and (max-width : 350px) {
+            font-size: 8px;
+        }
+    }
+
+    .link {
+        display: flex;
+        width: 30%;
+        justify-content: flex-end;
+        @media only screen and (max-width : $md-break) {
+            display: none;
+           }
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 12px;
+            @media only screen and (max-width : $md-break) {
+                display: none;
+               }
+        }
+        img {
+            margin-left: 4px;
+            cursor: pointer;
+            @media only screen and (max-width : $md-break) {
+                display: none;
+               }
+        }
+        &__ticket {
+            display: flex;
+            align-items: center;
+        }
+        &__calendar {
+            margin-left: 42px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
