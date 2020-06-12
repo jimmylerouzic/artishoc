@@ -9,29 +9,29 @@
            justify-content: center;
            }
         #cinema {
-            background-color: #4996D2;
+            background-color: $blue;
             font-family: 'gabrielastencilw00-boldRg';
             font-size: 24px;
         }
         #spectacle {
-            background-color: #992F45;
+            background-color: $red;
             font-family: 'gabrielastencilw00-boldRg';
             font-size: 24px;
         }
         #art {
-            background-color: #C45685;
+            background-color: $pink;
             font-family: 'gabrielastencilw00-boldRg';
             font-size: 24px;
         }
         #enfants {
-            background-color: #ED6C00;
+            background-color: $yellow;
             font-family: 'gabrielastencilw00-boldRg';
             font-size: 24px;
         }
         .cinema-theme {
             .cards-descriptif {
                 &__date {
-                    color: #4996D2;
+                    color: $blue;
                     font-family: 'Roboto';
                     font-weight: 500;
                 }
@@ -63,7 +63,7 @@
         .art-theme {
             .cards-descriptif {
                 &__date {
-                    color: #C45685;
+                    color: $pink;
                     font-family: 'Roboto';
                     font-weight: 500;
                 }
@@ -78,12 +78,12 @@
         .spectacle-theme {
             .cards-descriptif {
                 &__date {
-                    color: #992F45;
+                    color: $red;
                     font-family: 'Roboto';
                     font-weight: 500;
                 }
                 &__comment {
-                    color: #992F45;
+                    color: $red;
                     font-family: 'Roboto';
                     font-weight: 500;
                 }
@@ -103,7 +103,7 @@
         .kid-theme {
             .cards-descriptif {
                 &__date {
-                    color: #ED6C00;
+                    color: $yellow;
                     font-family: 'Roboto';
                     font-weight: 500;
                 }
