@@ -29,6 +29,13 @@ let config = {
   },
   module: {
     rules: [
+      {
+        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader?limit=100000',
+        options: {
+          esModule: false,
+        }
+      },
       // Sass
       {
         test: /\.(sa|sc|c)ss$/,
